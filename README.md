@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Irressentials E-Commerce Website
+Welcome to Irressentials, an e-commerce website developed using ReactJS and styled with TailwindCSS. Irressentials offers a wide range of products for your specific needs, from Top-tier wine collections, to exquisite deodorants.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
+- ReactJS
+- TailwindCSS
 
-## Available Scripts
+## Features
+- Browse products by category
+- View products details
+- Add/Remove products to cart
+- Adjust product quantities in cart
+- Proceed to checkout
+- Animate On Scroll(Using AOS): Elements are animated when scrolling to provide a more engaging user experience.
+- Random Bible verses  each time a user checks out. **[Planned]**
 
-In the project directory, you can run:
+## Development Process
+### Planning:
+- Identified the requirements and features needed for the website.
+- Created wireframes and mockups to visualise the design and overall layout.
 
-### `npm start`
+### Setting Up Project:
+- Initialized a new ReactJS project using `create-react-app`.
+- Installed TailwindCSS for styling.
+- Set up the file structure, including components, pages, utilities, public assets (fonts & images), etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Styling
+- Used TailwindCSS utility classes for styling various components.
+- Ensured steady responsiveness across all breakpoints.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Implementing Features
+- Implemented product browsing functionality.
+- Added the ability to add/remove products from the cart.
+- Implemented cart functionality including adjusting quantities and calculating total prices.
+- Included a random Bible verse feature that displays a different verse every time a user proceeds to check out. This will be implemented through accessing an API.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Testing
+- Concluded multiple manual tests to ensure all features work as expected.
+- Addressed any bugs or issues that arose during testing.
 
 ### Deployment
+- Deployed the website to Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Getting Started
+To run this project locally, follow these steps:
 
-### `npm run build` fails to minify
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```git clone https://github.com/your-username/irressentials.git```
+
+2. Install dependecies:
+
+```cd irressentials```
+
+```npm install```
+
+3. Run the server:
+
+```npm start```
+
+4. Open https://localhost:3000 in your browser to view the Irressentials website.
+
+## Credits
+- [ReactJS](https://reactjs.org/)
+
+- [TailwindCSS](https://tailwindcss.com/)
+
+- [AOS](https://michalsnik.github.io/aos/)
+
+# License
