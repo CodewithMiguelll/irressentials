@@ -68,3 +68,4 @@ To run this project locally, follow these steps:
 - [AOS](https://michalsnik.github.io/aos/)
 
 # License
+This project is licensed under the [MIT license](LICENSE)
