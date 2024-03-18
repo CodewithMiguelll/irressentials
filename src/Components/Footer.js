@@ -1,5 +1,6 @@
 import { faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,13 +18,13 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-4">Customer Service</h3>
           <ul className="footer__list">
             <li className="mb-2">
-              <a href="/">FAQs</a>
+              <Link to="/">FAQs</Link>
             </li>
             <li className="mb-2">
-              <a href="/">Returns</a>
+              <Link to="/">Returns</Link>
             </li>
             <li className="mb-2">
-              <a href="/">Shipping</a>
+              <Link to="/">Shipping</Link>
             </li>
           </ul>
         </div>
@@ -40,15 +41,15 @@ const Footer = () => {
             </button>
           </div>
           <div className="mt-4">
-            <a href="/" className="text-white text-2xl mr-4">
+            <Link to="/" className="text-white text-2xl mr-4">
               <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-            <a href="/" className="text-white text-2xl mr-4">
+            </Link>
+            <Link to="/" className="text-white text-2xl mr-4">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="/" className="text-white text-2xl mr-4">
+            </Link>
+            <Link to="/" className="text-white text-2xl mr-4">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import Header from "./Components/Header";
 import Main from "./Components/Main";
+import LogIn from "./Components/LogIn"
+import SignUp from './Components/SignUp'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -30,16 +32,22 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <Header />
           <Switch>
-            <Route path ="/">
-                <Main/>
-            </Route>
+            <Route path="/log-in" component={LogIn} />
+            <Route path="/sign-up" component={SignUp} />
+            <Route path="/" render={() => (
+              <>
+                <Header />
+                <Main />
+              </>
+            )} />
           </Switch>
         </header>
       </div>
     </Router>
   );
-}
+};
+
+
 
 export default App;
