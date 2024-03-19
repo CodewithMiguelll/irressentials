@@ -8,13 +8,13 @@ const SignUp = () => {
         <Link to="/">
           <FontAwesomeIcon
             icon={faArrowLeftLong}
-            className="text-[#f6f6f6] text-2xl ml-10 mt-9"
+            className="text-[#f6f6f6] text-2xl ml-10 mt-9 transition-all hover:-translate-x-2 hover:text-[#aa8be2]"
           />
         </Link>
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
-          className="max-w-xs lg:max-w-xl mx-auto my-auto mt-28"
+          className="max-w-xs lg:max-w-xl mx-auto my-auto mt-20"
         >
           <form>
             <fieldset>
@@ -66,6 +66,18 @@ const SignUp = () => {
                 name="password"
                 type="password"
                 placeholder="Password"
+                required
+              />
+
+              <label htmlFor="password" className="block mb-1 text-[#f6f6f6]">
+                Confirm Password:
+              </label>
+              <input
+                className="w-full p-2 mb-5 rounded-md border border-[#fffafa]"
+                id="password"
+                name="password"
+                type="password"
+                placeholder="Confirm Password"
                 required
               />
 

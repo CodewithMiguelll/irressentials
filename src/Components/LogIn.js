@@ -5,11 +5,16 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const LogIn = () => {
   return (
     <div>
-      <Link to="/"><FontAwesomeIcon icon={faArrowLeftLong} className="text-[#f6f6f6] text-2xl ml-10 mt-9" /></Link>
+      <Link to="/">
+        <FontAwesomeIcon
+          icon={faArrowLeftLong}
+          className="text-[#f6f6f6] transition-all hover:-translate-x-2 hover:text-[#aa8be2] text-2xl ml-9 mt-7"
+        />
+      </Link>
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="max-w-xs lg:max-w-xl mx-auto my-auto mt-36"
+        className="max-w-xs lg:max-w-xl mx-auto my-auto mt-20"
       >
         <form>
           <fieldset>

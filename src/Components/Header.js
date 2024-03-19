@@ -26,10 +26,10 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex gap-9">
-          <Link to="/home" className="hover:border-b-2">
+          <Link to="/" className="hover:border-b-2">
             Home
           </Link>
-          <Link to="/Wines" className="hover:border-b-2">
+          <Link to="/wines" className="hover:border-b-2">
             Wines
           </Link>
           <Link to="/perfumes" className="hover:border-b-2">
@@ -57,10 +57,10 @@ const Header = () => {
         {/* Mobile Menu */}
         {showMenu && (
           <div className="lg:hidden rounded-lg fixed right-1 top-16 bg-[#aa8be3] p-5 shadow-lg z-10">
-            <Link to="/home" className="block py-2 hover:border-r-2">
+            <Link to="/" className="block py-2 hover:border-r-2">
               <FontAwesomeIcon icon={faHome} /> Home
             </Link>
-            <Link to="/shoes" className="block py-2 hover:border-r-2">
+            <Link to="/wines" className="block py-2 hover:border-r-2">
               <FontAwesomeIcon icon={faWineGlass} /> Wines
             </Link>
             <Link to="/perfumes" className="block py-2 hover:border-r-2">

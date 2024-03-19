@@ -67,5 +67,7 @@ To run this project locally, follow these steps:
 
 - [AOS](https://michalsnik.github.io/aos/)
 
+- Icons made by [FontAwesome](https://fontawesome.com/)
+
 # License
 This project is licensed under the [MIT license](LICENSE)

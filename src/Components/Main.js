@@ -19,6 +19,7 @@ import "react-multi-carousel/lib/styles.css";
 import { faHandshake, faHeart, faLightbulb, faStar } from '@fortawesome/free-regular-svg-icons';
 import ReviewCard from './Reviews';
 import Footer from './Footer'
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 
 const responsive = {
@@ -82,9 +83,12 @@ const Main = () => {
           Your Daily Essentials, Crafted with Precision and Passion to Redefine
           Your Personal Style and Elevate Your Daily Experience.
         </p>
+        <Link to="/categories">
         <button className="border bg-[#3f1491] rounded-lg p-3 mt-4 text-white font-Abeezee text-xs transition-all hover:bg-[#f6f6f6] hover:text-[#aa8be2] hover:-translate-y-1 active:translate-y-1">
           Browse Our Categories
         </button>
+        </Link>
+        
       </div>
 
       {/*FEATURED PRODUCTS SECTION */}
@@ -361,7 +365,7 @@ const Main = () => {
                 name: "John Doe",
                 date: "2023-02-09",
                 content:
-                  "I've never been more satisfied as I've been with Irressentials' winery and deodorants, they truly are life-savers ",
+                  "I've never been more satisfied as I've been with Irressentials' winery and perfumes, they truly are life-savers ",
                 rating: 4.5,
               }}
             />
@@ -400,7 +404,7 @@ const Main = () => {
                 name: "Roberto Rivera",
                 date: "2023-12-28",
                 content:
-                  "Outstanding services with excellent customer care. They provide the best collections of deodorant that are top-notch ",
+                  "Outstanding services with excellent customer care. They provide the best collections of perfumes that are top-notch. ",
                 rating: 4.5,
               }}
             />
@@ -413,7 +417,7 @@ const Main = () => {
                 name: "Mea Dallas",
                 date: "2024-01-08",
                 content:
-                  "I can't get enough of their quality wines, they're simply excellent, a  must try for any wine lover.",
+                  "I can't get enough of the quality of their customer care and wines, they're simply excellent, a must try for any wine lover.",
                 rating: 4.5,
               }}
             />
@@ -430,7 +434,7 @@ const Main = () => {
         <h2 className="font-Exo text-3xl text-[#f6f6f6] text-center">
           Book Us
         </h2>
-        <form action="#" method="get">
+        <form >
           <fieldset>
             <legend className="text-[#f6f6f6] mb-3">
               Fill in the required information to book a service
