@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <nav className="text-white flex justify-between items-center p-6">
-        <Link to="/home">
+        <Link to="/">
           <h1 className="font-bold font-Konit text-white">Irressentials</h1>
         </Link>
 
