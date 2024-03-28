@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ReviewCard = ({ review }) => {
   return (
-    <div className="bg-[#aa8be2] mx-auto p-6 rounded-lg shadow-md w-72">
+    <div className="bg-[#aa8be2] mx-auto p-6 rounded-lg shadow-md w-80">
       <div className="flex items-center mb-4">
         <img
           src={review.avatar}

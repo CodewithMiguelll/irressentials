@@ -343,7 +343,7 @@ const Main = () => {
                 name: "John Doe",
                 date: "2023-02-09",
                 content:
-                  "I've never been more satisfied as I've been with Irressentials' winery and perfumes, they truly are life-savers ",
+                  "I've never been more satisfied as I've been with Irressentials' wine collection and perfumes, they truly are life-savers. A truly outstanding store. ",
                 rating: 4.5,
               }}
             />
@@ -395,7 +395,7 @@ const Main = () => {
                 name: "Mea Dallas",
                 date: "2024-01-08",
                 content:
-                  "I can't get enough of the quality of their customer care and wines, they're simply excellent, a must try for any wine lover.",
+                  "I can't get enough of the quality of their customer care and shoes, they're simply excellent, a must try for any footwear enthusiast.",
                 rating: 4.5,
               }}
             />
