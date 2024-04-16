@@ -4,7 +4,7 @@ Welcome to Irressentials, an e-commerce website developed using ReactJS and styl
 ## Technologies Used
 - ReactJS
 - TailwindCSS
-- AOS (animate On Scroll)
+- AOS (Animate On Scroll)
 
 ## Features
 - Browse products by category
