@@ -260,7 +260,7 @@ const Main = () => {
               <h3 className="text-xl font-semibold text-[#f6f6f6] mb-4">
                 <FontAwesomeIcon icon={faStar} /> Our Mission
               </h3>
-              <p className="text-[#f6f6f6]">
+              <p className="text-[#f6f6f6] font-Abeezee">
                 At Irressentials, our mission is to curate a selection of the
                 finest perfumes, wines, and shoes, offering our customers a
                 taste of sophistication and refinement. We strive to provide an
@@ -276,7 +276,7 @@ const Main = () => {
               <h3 className="text-xl font-semibold text-[#f6f6f6] mb-4">
                 <FontAwesomeIcon icon={faLightbulb} /> Our Vision
               </h3>
-              <p className="text-[#f6f6f6]">
+              <p className="text-[#f6f6f6] font-Abeezee">
                 Our vision is to redefine elegance and luxury, setting new
                 standards in the world of fashion and lifestyle. We aim to
                 inspire our customers to embrace their individuality and express
@@ -291,7 +291,7 @@ const Main = () => {
               <h3 className="text-xl font-semibold text-[#f6f6f6] mb-4">
                 <FontAwesomeIcon icon={faHandshake} /> Our Values
               </h3>
-              <ul className="text-[#f6f6f6]">
+              <ul className="text-[#f6f6f6] font-Abeezee">
                 <li className="list-disc">
                   Quality: We are comitted to offering only the highest quality
                   products, curated with care and attention to detail.
@@ -414,7 +414,7 @@ const Main = () => {
         </h2>
         <form >
           <fieldset>
-            <legend className="text-[#f6f6f6] mb-3">
+            <legend className="text-[#f6f6f6] mb-3 font-Abeezee">
               Fill in the required information to book a service
             </legend>
             <label htmlFor="name" className="block mb-[5px] text-[#f6f6f6]">

@@ -1,9 +1,10 @@
 # Irressentials E-Commerce Website
-Welcome to Irressentials, an e-commerce website developed using ReactJS and styled with TailwindCSS. Irressentials offers a wide range of products for your specific needs, from Top-tier wine collections, to exquisite deodorants.
+Welcome to Irressentials, an e-commerce website developed using ReactJS and styled with TailwindCSS. Irressentials offers a wide range of products for your specific needs, from Top-tier wine collections, to exquisite perfumes.
 
 ## Technologies Used
 - ReactJS
 - TailwindCSS
+- AOS (animate On Scroll)
 
 ## Features
 - Browse products by category

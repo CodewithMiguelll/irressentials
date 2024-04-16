@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHome, faShoePrints, faSprayCan, faTimes, faWineGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faCartShopping, faHome, faShoePrints, faSprayCan, faTimes, faWineGlass } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Header = () => {
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex gap-9">
+        <ul className="hidden lg:flex gap-9 font-Abeezee">
           <Link to="/" className="hover:border-b-2">
             Home
           </Link>
@@ -38,17 +38,20 @@ const Header = () => {
           <Link to="/shoes" className="hover:border-b-2">
             Shoes
           </Link>
+          <Link to="/cart" className="hover:border-b-2">
+            Cart
+          </Link>
         </ul>
 
         {/*LogIn and Sign Up Btns */}
         <ul className="hidden gap-3 lg:flex">
           <Link to="/log-in">
-            <button className="border rounded-xl p-1 bg-[#3f1491] transition-all w-20 hover:bg-[#f6f6f6] hover:-translate-y-1 active:translate-y-1  hover:text-[#aa8be2]">
+            <button className="border rounded-xl p-1 bg-[#3f1491] transition-all w-20 hover:bg-[#f6f6f6] hover:-translate-y-1 active:translate-y-1  hover:text-[#aa8be2] font-Abeezee">
               Log In
             </button>
           </Link>
           <Link to="/sign-up">
-            <button className="border rounded-xl p-1 ml-4 w-20 bg-[#671bf5] transition-all hover:-translate-y-1 active:translate-y-1 hover:bg-[#f6f6f6] hover:text-[#aa8be2]">
+            <button className="border rounded-xl p-1 ml-4 w-20 bg-[#671bf5] transition-all hover:-translate-y-1 active:translate-y-1 hover:bg-[#f6f6f6] hover:text-[#aa8be2] font-Abeezee">
               Sign Up
             </button>
           </Link>
@@ -68,6 +71,9 @@ const Header = () => {
             </Link>
             <Link to="/shoes" className="block py-2 hover:border-r-2">
               <FontAwesomeIcon icon={faShoePrints} /> Shoes
+            </Link>
+            <Link to="/cart" className="block py-2 hover:border-r-2">
+              <FontAwesomeIcon icon={faCartShopping} /> Cart
             </Link>
 
             {/* Log In and Sign Up buttons in the menu */}

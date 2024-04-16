@@ -17,7 +17,7 @@ const ReviewCard = ({ review }) => {
           <p className="text-[#f6f6f6]">{review.date}</p>
         </div>
       </div>
-      <p className="text-[#f6f6f6]">{review.content}</p>
+      <p className="text-[#f6f6f6] font-Abeezee">{review.content}</p>
       <div className="flex items-center gap-2 mt-4">
         <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
         <p className="text-yellow-500">{review.rating}</p>

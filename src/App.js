@@ -5,6 +5,11 @@ import SignUp from './Components/SignUp'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Wines from "./Components/Wines";
+import Perfumes from './Components/Perfumes'
+import Shoes from './Components/Shoes'
+import Cart from './Components/CartList'
+import CategoriesPage from "./Components/Categories";
 
 AOS.init({
   // Global settings:
@@ -33,8 +38,13 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="/log-in" component={LogIn} />
+            <Route path="/log-in" component={LogIn}/>
             <Route path="/sign-up" component={SignUp} />
+            <Route path= "/wines" component={Wines}/>
+            <Route path="/perfumes" component={Perfumes}/>
+            <Route path="/shoes" component={Shoes}/>*
+            <Route path="/cart" component={Cart}/>
+            <Route path="/categories" component={CategoriesPage}/>
             <Route path="/" render={() => (
               <>
                 <Header />
