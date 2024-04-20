@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-bold mb-4">Stay Connected</h3>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex  md:flex-row items-center">
             <input
               type="email"
               placeholder="Your Email"
@@ -61,7 +61,6 @@ const Footer = () => {
             </a>
             <a
               href="/"
-              target="_blank"
               rel="noopener noreferrer"
               className="text-white text-2xl mr-4"
             >

@@ -10,6 +10,10 @@ import Perfumes from './Components/Perfumes'
 import Shoes from './Components/Shoes'
 import Cart from './Components/CartList'
 import CategoriesPage from "./Components/Categories";
+import ProductDetails from "./Components/ProductDetails";
+import shoes from "./data/shoes"
+import perfumes from "./data/perfumes"
+import wines from "./data/wines"
 
 AOS.init({
   // Global settings:
@@ -32,25 +36,45 @@ AOS.init({
   anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
 });
 
+
+
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="/log-in" component={LogIn}/>
+            <Route path="/log-in" component={LogIn} />
             <Route path="/sign-up" component={SignUp} />
-            <Route path= "/wines" component={Wines}/>
-            <Route path="/perfumes" component={Perfumes}/>
-            <Route path="/shoes" component={Shoes}/>*
-            <Route path="/cart" component={Cart}/>
-            <Route path="/categories" component={CategoriesPage}/>
-            <Route path="/" render={() => (
-              <>
-                <Header />
-                <Main />
-              </>
-            )} />
+            <Route path="/wines" component={Wines} />
+            <Route path="/perfumes" component={Perfumes} />
+            <Route path="/shoes" component={Shoes} />*
+            <Route path="/cart" component={Cart} />
+            <Route path="/categories" component={CategoriesPage} />
+            <Route
+              exact
+              path="/product/:id"
+              render={(props) => <ProductDetails {...props} products={shoes} />}
+            />
+            <Route
+              exact
+              path="/product/:id"
+              render={(props) => <ProductDetails {...props} products={perfumes} />}
+            />
+            <Route
+              exact
+              path="/product/:id"
+              render={(props) => <ProductDetails {...props} products={wines} />}
+            />
+            <Route
+              path="/"
+              render={() => (
+                <>
+                  <Header />
+                  <Main />
+                </>
+              )}
+            />
           </Switch>
         </header>
       </div>

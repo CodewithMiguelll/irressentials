@@ -19,6 +19,7 @@ const Cart = () => {
   return (
     <div>
       <Header />
+      
       <div className="p-4 border border-gray-300 rounded">
         <h2 className="text-lg font-bold font-Exo text-[#f6f6f6] mb-4">Cart</h2>
         {items.length === 0 ? (
