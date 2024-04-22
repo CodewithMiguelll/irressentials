@@ -247,7 +247,7 @@ const Main = () => {
               Discover the perfect blend of sophistication and taste with our
               exquisite selection of wines. Step into style with our latest shoe
               collection, designed to elevate your every step. Stay fresh and
-              confident all day long with our range of premium deodorants.
+              confident all day long with our range of premium perfumes.
               Elevate your lifestyle with us today!
             </p>
           </div>
