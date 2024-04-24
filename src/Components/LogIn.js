@@ -8,7 +8,7 @@ const LogIn = () => {
       <Link to="/">
         <FontAwesomeIcon
           icon={faArrowLeftLong}
-          className="text-[#f6f6f6] transition-all hover:-translate-x-2 hover:text-[#aa8be2] text-2xl ml-9 mt-7"
+          className="text-[#f6f6f6] transition-all lg:hover:-translate-x-2 lg:hover:text-[#aa8be2] text-2xl ml-7 mt-7"
         />
       </Link>
       <div

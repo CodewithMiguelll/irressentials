@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   const [isAddedToFavorites, setIsAddedToFavorites] = useState(false);
 
   return (
-    <div className="w-60 mx-auto transition-all hover:-translate-y-2 active:scale-95 bg-[#] shadow-lg rounded-lg overflow-hidden">
+    <div className="w-60 mx-auto transition-all lg:hover:-translate-y-2 active:scale-95 shadow-lg rounded-lg overflow-hidden">
       <img
         className="w-full h-56 object-cover object-center"
         src={product.image}
